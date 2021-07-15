@@ -118,7 +118,7 @@ ENV \
 # Set image metadata
 # ------------------------------------------------------------------------------
 LABEL \
-	maintainer="James Deathe <james.deathe@gmail.com>" \
+	maintainer="James Deathe <aofrank@yahoo.com>" \
 	install="docker run \
 --rm \
 --privileged \
