@@ -80,7 +80,7 @@ $ docker run -d \
   --name sftp.1 \
   -p 2021:22 \
   -e SSH_USER_FORCE_SFTP=true \
-  jdeathe/centos-ssh:2.6.1
+  aofrank/centos-ssh:2.6.1
 ```
 
 #### Connecting
@@ -122,7 +122,7 @@ $ docker stop ssh.1 && \
   --name ssh.1 \
   -p :22 \
   --env "SSH_USER=centos" \
-  jdeathe/centos-ssh:2.6.1
+  aofrank/centos-ssh:2.6.1
 ```
 
 To identify the `SSH_USER` user's sudoer password, inspect the container's logs as follows:
