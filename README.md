@@ -38,7 +38,7 @@ Run up an SSH container named 'ssh.1' from the docker image 'jdeathe/centos-ssh'
 $ docker run -d \
   --name ssh.1 \
   -p 2020:22 \
-  jdeathe/centos-ssh:2.6.1
+  aofrank/centos-ssh:2.6.1
 ```
 
 Check the logs for the password (required for sudo).
